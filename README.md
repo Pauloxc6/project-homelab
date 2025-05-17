@@ -36,8 +36,8 @@ Responsável por **segurança da rede e análise de eventos**:
 
 | Serviço     | Porta | Caminho via WAF       | Descrição                                |
 | ----------- | ----- | --------------------- | ---------------------------------------- |
-| 🧱 Safeline | 19999 | `192.168.122.79:9443` | Monitoramento de sistema em tempo real   |
-| 🖥️ Wazuh    | 9000  | `192.168.122.79:443`  | Gerenciador de containers Docker via GUI |
+| 🧱 Safeline | 9443  | `192.168.122.79:9443` | Monitoramento de sistema em tempo real   |
+| 🖥️ Wazuh    | 443   | `192.168.122.79:443`  | Gerenciador de containers Docker via GUI |
 
 ---
 
