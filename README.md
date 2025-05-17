@@ -91,6 +91,8 @@ Essa topologia garante:
 ```
 (Internet)
 |
+(Tailscale)
+|
 ▼
 [WAF - SafeLine - 192.168.122.79]
 |
