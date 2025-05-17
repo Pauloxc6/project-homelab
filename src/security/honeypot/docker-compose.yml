@@ -1,0 +1,12 @@
+version: "3"
+
+services:
+  honeypot:
+    image: php:8.2-apache
+    container_name: honeypot
+    ports:
+      - "80:80" # Porta externa:interna
+    volumes:
+      - ./honeypot:/var/www/html/
+      - ./honeypot/honeypot.log:/var/www/html/honeypot.log
+    restart: unless-stopped
