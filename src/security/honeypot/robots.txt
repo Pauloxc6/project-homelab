@@ -1,4 +1,0 @@
-User-agent: *
-Disallow: /admin.php
-Disallow: /upload.php
-Disallow: /index.php
