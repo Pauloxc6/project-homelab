@@ -7,6 +7,5 @@ services:
     ports:
       - "8080:80" # Porta externa:interna
     volumes:
-      - ./honeypot:/var/www/html/
-      - ./honeypot/honeypot.log:/var/www/html/honeypot.log
+      - ./web:/var/www/html/
     restart: unless-stopped
