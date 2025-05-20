@@ -34,10 +34,10 @@ Responsável por **segurança da rede e análise de eventos**:
 - 🚫 **Fail2Ban**  
   Bloqueio automático de IPs com comportamento malicioso (ex: tentativas de login por força bruta).
 
-| Serviço     | Porta | Caminho via WAF       | Descrição                                |
-| ----------- | ----- | --------------------- | ---------------------------------------- |
-| 🧱 Safeline | 9443  | `192.168.122.79:9443` | Monitoramento de sistema em tempo real   |
-| 🖥️ Wazuh    | 443   | `192.168.122.79:443`  | Gerenciador de containers Docker via GUI |
+| Serviço     | Porta | Caminho via WAF       | Descrição                                              |
+| ----------- | ----- | --------------------- | ------------------------------------------------------ |
+| 🧱 Safeline | 9443  | `192.168.122.79:9443` | Proteção contra ataques web (Web Application Firewall) |
+| 🖥️ Wazuh    | 443   | `192.168.122.79:443`  | Coleta e análise de logs, monitoramento de segurança   |
 
 ---
 
