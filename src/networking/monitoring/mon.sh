@@ -13,6 +13,7 @@ echo "By: @Pauloxc6"
 
 [[ ! "$(comand -v docker)" ]] && { echo "[!] O programa docker não está instalado!" ; exit 1;}
 [[ ! "$(comand -v docker-compose)" ]] && { echo "[!] O programa docker-compose não está instalado!" ; exit 1;}
+
 #=================================
 # MAIN
 #=================================

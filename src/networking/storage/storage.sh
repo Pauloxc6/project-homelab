@@ -13,9 +13,15 @@ echo "By: @Pauloxc6"
 
 [[ ! "$(comand -v docker)" ]] && { echo "[!] O programa docker não está instalado!" ; exit 1;}
 [[ ! "$(comand -v docker-compose)" ]] && { echo "[!] O programa docker-compose não está instalado!" ; exit 1;}
+
 #=================================
 # MAIN
 #=================================
+
+echo "[+] Criando o volume locais"
+sleep 2s
+mkdir /srv/{files,config}
+chmod 777 /srv/{files,config}
 
 # Instalção
 [[ ! -f "docker-compose.yml" ]] && { echo "[!] O arquivo docker-compose.yml não existe!" ; exit 1;}

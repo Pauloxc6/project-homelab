@@ -7,8 +7,8 @@ services:
     ports:
       - 32768:8080
     volumes:
-      - /DATA_DIR:/data
-      - /CONFIG_DIR:/config
+      - /opt/srv:/data
+      - /opt/config:/config
     environment:
-      - FB_BASEURL=/filebrowser
+      - FB_BASEURL=/
     restart: always
